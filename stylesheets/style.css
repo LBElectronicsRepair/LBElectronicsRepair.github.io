@@ -1,3 +1,8 @@
+@charset "UTF-8";
+:root {
+  --lb-orange: #F4A261;
+}
+
 .bg-body-primary {
     background-color: black !important;
 }
@@ -8,4 +13,10 @@
 
 .navbar-brand, .nav-link, .dropdown-item {
     color: white !important;
+}
+
+.btn-primary {
+    background-color: var(--lb-orange) !important;
+    color: black !important;
+    font-weight: bold;
 }
