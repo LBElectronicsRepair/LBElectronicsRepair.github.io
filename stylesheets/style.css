@@ -1,0 +1,11 @@
+.bg-body-primary {
+    background-color: black !important;
+}
+
+.bg-body-tertiary {
+    background-color: black !important;
+}
+
+.navbar-brand, .nav-link, .dropdown-item {
+    color: white !important;
+}
