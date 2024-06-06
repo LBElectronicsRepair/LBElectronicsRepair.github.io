@@ -45,9 +45,27 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.7vw;
+    font-size: 24px;
   }
 
+  @media (max-width: 600px) {
+    .image-on-md-plus {
+      display: none;
+    }
+  }
+
+  .card {
+    background-color: var(--bs-secondary-bg);
+    color: var(--bs-body-color);
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+  .card-img-top {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+  }
 /* This is probably not necessary
     
     .bg-body-primary {
