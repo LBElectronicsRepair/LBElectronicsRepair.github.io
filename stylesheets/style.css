@@ -20,17 +20,33 @@
 }
 
 .btn-primary {
-    background-color: var(--lb-orange) !important;
-    border-color: var(--lb-orange) !important;
-    color: black !important;
+    background-color: var(--lb-orange);
+    border-color: var(--lb-orange);
+    color: black;
     font-weight: bold;
 }
 .btn-primary:hover {
-    background-color: var(--lb-orange-secondary) !important;
-    border-color: var(--lb-orange) !important;
-    color: black !important;
+    background-color: var(--lb-orange-secondary);
+    border-color: var(--lb-orange);
+    color: black;
     font-weight: bold;
 }
+
+
+.image-behind-text {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  /* Centered text */
+.centered-over-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.7vw;
+  }
 
 /* This is probably not necessary
     
