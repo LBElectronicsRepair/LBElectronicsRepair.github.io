@@ -1,10 +1,31 @@
 @charset "UTF-8";
 :root {
-  --lb-orange: #F4A261;
-  --lb-orange-secondary: #c98a57;
+    --lb-orange: #F4A261;
+    --lb-orange-secondary: #c98a57;
+    /* Body colours */
+    --bs-body-color: white;
+    --bs-body-bg: black;
+    /* Secondairy colours */
+    --bs-secondary-color: #C8C8C8;
+    --bs-secondary-bg: #343434;
+    /* Tertiairy colours */
+    --bs-tertiary-bg: #9a9a9a;
+    --bs-tertiary-bg: #696969;
+    /* Primary colour */
+    --bs-primary: #F4A261;
+    --bs-primary-rgb: 244, 162, 97;
+    --bs-primary-bg-subtle: #a76f42;
+    --bs-primary-text-emphasis: #F4A261;        /* LUKE I have no idea what this is */
+
 }
 
 .btn-primary {
+    background-color: var(--lb-orange) !important;
+    border-color: var(--lb-orange) !important;
+    color: black !important;
+    font-weight: bold;
+}
+.btn-primary:hover {
     background-color: var(--lb-orange-secondary) !important;
     border-color: var(--lb-orange) !important;
     color: black !important;
