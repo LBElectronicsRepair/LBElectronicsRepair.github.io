@@ -24,7 +24,9 @@
     border-color: var(--lb-orange);
     color: black;
     font-weight: bold;
+    --bs-btn-bg: var(--lb-orange-secondary);
 }
+
 .btn-primary:hover {
     background-color: var(--lb-orange-secondary);
     border-color: var(--lb-orange);
@@ -66,6 +68,28 @@
     max-height: 150px;
     object-fit: cover;
   }
+
+  .btn-check+.btn:hover {
+    border-color: var(--lb-orange);
+  }	
+
+  /* .btn-services-checkbox {
+    --bs-btn-active-bg: white;
+    --bs-btn-active-border-color: var(--bs-primary);
+    color: black;
+  } */
+
+  .btn-check:checked+.btn {
+    --bs-btn-active-bg: white;
+    --bs-btn-active-border-color: var(--bs-primary);
+    color: black;
+    --bs-btn-active-border-color: white;
+  }
+
+  .list-group-item {
+    padding: 0;
+  }
+
 /* This is probably not necessary
     
     .bg-body-primary {
