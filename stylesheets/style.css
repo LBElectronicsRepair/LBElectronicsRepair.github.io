@@ -90,6 +90,11 @@
     padding: 0;
   }
 
+  .form-control:focus {
+    border-color: var(--lb-orange);
+    box-shadow: 0 0 0 .25rem rgba(var(--bs-primary-rgb), .25);
+  }
+
 /* This is probably not necessary
     
     .bg-body-primary {
