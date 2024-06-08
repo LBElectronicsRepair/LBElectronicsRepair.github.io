@@ -85,12 +85,6 @@
     border-color: var(--lb-orange);
   }	
 
-  /* .btn-services-checkbox {
-    --bs-btn-active-bg: white;
-    --bs-btn-active-border-color: var(--bs-primary);
-    color: black;
-  } */
-
   .btn-check:checked+.btn {
     --bs-btn-active-bg: white;
     --bs-btn-active-border-color: var(--bs-primary);
@@ -145,17 +139,3 @@
     height: 100%;
   }
 }
-
-/* This is probably not necessary
-    
-    .bg-body-primary {
-    background-color: black !important;
-}
-
-.bg-body-tertiary {
-    background-color: black !important;
-}
-
-.navbar-brand, .nav-link, .dropdown-item {
-    color: white !important;
-} */
