@@ -34,40 +34,6 @@
     font-weight: bold;
 }
 
-
-.image-behind-text {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-
-  /* Centered text */
-.centered-over-image {
-    width:65%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 24px;
-  }
-
-  @media (min-width: 992px) {
-    .image-text-container .centered-over-image {
-        width: 100%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-}
-
-  @media (max-width: 600px) {
-    .image-on-md-plus {
-      display: none;
-    }
-  }
-
   .card {
     background-color: var(--bs-secondary-bg);
     color: var(--bs-body-color);
@@ -131,11 +97,32 @@
     
   }
 
-  @media (min-width: 992px) {
-  .background-image-laptop {
-    /* background-color: #FF0000; */
-    background-image: url(../assets/macbookImage.png);
-    background-size: cover;
-    height: 100%;
+  /* Default styles for small screens */
+  .to-display-on-large {
+    display: none;
   }
+
+  /* Styles for medium and larger screens */
+  @media (min-width: 992px) {
+    .to-display-on-small {
+      display: none;
+    }
+    .to-display-on-large {
+      display: block;
+    }
+  }
+
+.image-behind-text {    
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered-over-image {
+  width:65%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
 }
