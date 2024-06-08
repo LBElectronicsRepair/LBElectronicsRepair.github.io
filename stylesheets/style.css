@@ -122,6 +122,7 @@
   .dropdown-menu {
     width: 100%;
     background-color: var(--bs-secondary-bg);
+    
   }
 
 /* This is probably not necessary
