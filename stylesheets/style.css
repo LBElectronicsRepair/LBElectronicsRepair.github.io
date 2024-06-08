@@ -43,12 +43,24 @@
 
   /* Centered text */
 .centered-over-image {
+    width:65%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 24px;
   }
+
+  @media (min-width: 992px) {
+    .image-text-container .centered-over-image {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
 
   @media (max-width: 600px) {
     .image-on-md-plus {
@@ -124,6 +136,15 @@
     background-color: var(--bs-secondary-bg);
     
   }
+
+  @media (min-width: 992px) {
+  .background-image-laptop {
+    /* background-color: #FF0000; */
+    background-image: url(../assets/macbookImage.png);
+    background-size: cover;
+    height: 100%;
+  }
+}
 
 /* This is probably not necessary
     
