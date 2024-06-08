@@ -95,6 +95,35 @@
     box-shadow: 0 0 0 .25rem rgba(var(--bs-primary-rgb), .25);
   }
 
+  .align-an-item-to-bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .black-text-to-hide {
+    color: var(--bs-body-bg);
+  }
+
+  .dropdown {
+    width: 100%;
+    text-align: left;
+  }
+
+  .dropdown-toggle {
+    width: 100%;
+    background-color: var(--bs-body-bg);
+    outline: white;
+    border-radius: 3px;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+  }
+
+  .dropdown-menu {
+    width: 100%;
+    background-color: var(--bs-secondary-bg);
+  }
+
 /* This is probably not necessary
     
     .bg-body-primary {
